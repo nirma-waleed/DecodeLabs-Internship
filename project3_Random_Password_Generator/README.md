@@ -115,7 +115,7 @@ Through this project, I learned how to:
 
 ### Input Validation
 
-![Input Validation](screenshots/input-validation.png)
+![Input Validation](screenshots/Input_validation.png)
 
 ## Conclusion
 
