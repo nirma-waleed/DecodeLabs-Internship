@@ -1,51 +1,23 @@
-# Project 1 - To-Do List
+# To-Do List
 
 ## Description
 
-This project is a simple command-line **To-Do List** application developed using **Python** as part of the **DecodeLabs Python Internship Program (2026)**.
-
-The application allows users to add tasks to a list, view all saved tasks, and exit the program through a simple menu-driven interface. It demonstrates the use of Python lists, functions, loops, conditional statements, and user input.
+The **To-Do List** is a Python console application developed to help users organize and manage their daily tasks efficiently. The program allows users to add new tasks, view all saved tasks, and exit the application through a simple menu-driven interface. It demonstrates the fundamental concepts of Python programming while providing a practical task management solution.
 
 
 ## Features
 
-- Add a new task
+- Add new tasks to the to-do list
 - View all saved tasks
 - Menu-driven interface
-- Displays tasks using `enumerate()`
-- Handles empty task lists
-- Exit the application
-
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/nirma-waleed/DecodeLabs-Internship.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd DecodeLabs-Internship/project1_Todo_List
-```
-
-### 3. Run the program
-
-```bash
-python Todo_List.py
-```
-
-
-## Sample Menu
-========== TO-DO LIST ==========
-1. Add Task
-2. View Tasks
-3. Exit
+- Displays tasks with numbering using `enumerate()`
+- Handles empty task lists gracefully
+- Simple and user-friendly console interface
 
 
 ## Python Concepts Used
 
+- Variables
 - Lists
 - Functions
 - Loops
@@ -54,15 +26,55 @@ python Todo_List.py
 - `append()`
 - `enumerate()`
 
+
+## How to Run
+
+### Clone the repository
+
+```bash
+git clone https://github.com/nirma-waleed/DecodeLabs-Internship.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd DecodeLabs-Internship/project1_Todo_List
+```
+
+### Run the program
+
+```bash
+python Todo_List.py
+```
+
+
+
+## Screenshots
+
+### Input Validation
+
+The application handles invalid menu selections and prompts the user to enter a valid option.
+
+![Input Validation](Screenshots/Todo_input_validation.png)
+
+### Todo_List Output
+
+The application successfully adds tasks and displays them in a numbered list.
+
+![Sample Output](Screenshots/Todo_output.png)
+
 ## Learning Outcomes
 
-This project helped me understand:
+Through this project, I learned how to:
 
-- How to store multiple items using Python lists
-- How to build a menu-driven application
-- How to organize code using functions
-- How to iterate through data using `enumerate()`
-- How to work with user input and conditional logic
+- Build a menu-driven Python application
+- Store and manage data using lists
+- Create reusable functions
+- Use loops and conditional statements effectively
+- Display data using `enumerate()`
+- Improve problem-solving and logical thinking
+
 
 ## Conclusion
-This project provided practical experience in building a simple command-line application using Python. It strengthened my understanding of lists, functions, loops, conditional statements, and user input while demonstrating how to organize code in a clean and structured way. This project serves as the foundation for developing more advanced Python applications in future internship tasks.
+
+The **To-Do List** project demonstrates the fundamental concepts of Python programming by applying them to a practical real-world problem. It showcases the use of lists, functions, loops, conditional statements, user input, and the Input → Process → Output (IPO) model to build a simple and reliable task management application.
