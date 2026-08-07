@@ -42,7 +42,7 @@ python Expense_Tracker.py
 ```
 
 
-## Example Output
+## Sample Output
 
 ```text
 ===================================
