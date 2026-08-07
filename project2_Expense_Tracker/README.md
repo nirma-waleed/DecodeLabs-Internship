@@ -96,6 +96,16 @@ Through this project, I learned:
 * Lists in Python
 * Basic mathematical operations
 * Input → Process → Output (IPO) model
+## Screenshots
+
+### Handling Invalid Input
+
+![Handling Invalid Input](screenshots/Expense_input_validation.png)
+
+### Expense Tracker Output
+
+![Expense Tracker Output](screenshots/Expense_output.png)
+
 
 ## Conclusion
 

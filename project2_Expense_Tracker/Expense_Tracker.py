@@ -7,7 +7,7 @@ total = 0
 expenses = []
 
 print("\nEnter your expenses one by one.")
-print("Type 'quit' (any capitalization) when you are finished.\n")
+print("Type 'quit' (any capitalization) when you are finished.")
 
 while True:
 
@@ -27,7 +27,7 @@ while True:
         total += expense
 
         print("Expense added successfully!")
-        print(f"Current Total: Rs. {total}\n")
+        print(f"Current Total: Rs. {total}")
 
     except ValueError:
         print("Invalid input! Please enter a valid number.\n")
