@@ -96,6 +96,7 @@ Through this project, I learned:
 * Lists in Python
 * Basic mathematical operations
 * Input → Process → Output (IPO) model
+
 ## Screenshots
 
 ### Handling Invalid Input
